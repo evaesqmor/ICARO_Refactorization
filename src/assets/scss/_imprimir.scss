@@ -1,0 +1,20 @@
+﻿/* -------------------------------------------------------- */
+/* estilos para cuando se imprime                           */
+/* -------------------------------------------------------- */
+
+
+body,html
+{
+    margin:0;
+    padding:0;
+}
+
+.panel_control,.separador
+{
+    display:none;
+}
+
+.margen_superior, .pie, .cabecera, .menu_izquierdo
+ { 
+    display: none; 
+ }

@@ -1,0 +1,1066 @@
+﻿/* -------------------------------------------------------- */
+/* estilos específicos y heredados para distintos elementos */
+/* -------------------------------------------------------- */
+
+
+
+/*---------------------------------------------------
+    Presentación del Demandante
+    /demandantes/Default.aspx
+  -----------------------------------------------------*/
+
+
+/* resumen demandante */
+.eDemandantesPresentacion .bloque_resumen
+{
+  border:1px solid #78BBDD;
+  padding: 1.5em 2em 1.5em 1.5em;
+  margin-bottom:2em; 
+  width:40em;
+  overflow :hidden;
+}
+
+.eDemandantesPresentacion .bloque_resumen .izquierda
+{
+    float:left;
+    padding-right:2em;
+}
+
+.eDemandantesPresentacion .bloque_resumen .derecha
+{
+    float:left;
+    margin-left:1em;
+    width:30em;
+}
+
+
+  .eDemandantesPresentacion .bloque_resumen dl
+  {
+      margin-top:1em;
+      overflow:hidden;
+      width:30em;
+  }
+
+  .eDemandantesPresentacion .bloque_resumen dt
+  {
+      float: left;
+      clear:left;
+      padding-right: 1em;
+      display:  block;
+      text-align :left;
+      width: 10em;
+  }
+  
+  .eDemandantesPresentacion .bloque_resumen dd
+  {
+      float:none;
+  }
+  
+  
+  
+  
+
+
+
+/* Programas */
+.eDemandantesPresentacion .bloque_programas
+{
+    width: 30em;
+}
+
+.eDemandantesPresentacion .bloque_programas ul
+{
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.eDemandantesPresentacion .bloque_programas ul li
+{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    background-color: #78BBDD;
+    background-position: left;
+    background-repeat: repeat-y;
+    font-weight: bold;
+    font-size: 1.1em;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.eDemandantesPresentacion .bloque_programas ul li span
+{
+    display: block;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    text-decoration: none;
+}
+
+.eDemandantesPresentacion .bloque_programas ul li ul li
+{
+    background: none;
+    background-color: #FFF;
+    line-height: 1.5em;
+    border-left: 1px solid #78BBDD;
+    border-right: 1px solid #78BBDD;
+    border-bottom: 1px solid #78BBDD;
+    font-weight: normal;
+    font-size: 0.8em;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+
+
+/*---------------------------------------------------
+    Presentación de la Empresa
+    /Empresas/Default.aspx
+  -----------------------------------------------------*/
+
+
+/* resumen demandante */
+.eEmpresasPresentacion .bloque_resumen
+{
+  border:1px solid #78BBDD;
+  padding: 1.5em 2em 1.5em 1.5em;
+  margin-bottom:2em; 
+  width:50em;
+  overflow :hidden;
+}
+
+.eEmpresasPresentacion .bloque_resumen .izquierda
+{
+    float:left;
+    padding-right:2em;
+}
+
+.eEmpresasPresentacion .bloque_resumen .derecha
+{
+    float:left;
+    margin-left:1em;
+    width:35em;
+}
+
+
+  .eEmpresasPresentacion .bloque_resumen dl
+  {
+      margin-top:1em;
+      overflow:hidden;
+      width:30em;
+  }
+
+  .eEmpresasPresentacion .bloque_resumen dt
+  {
+      float: left;
+      clear:left;
+      padding-right: 1em;
+      display:  block;
+      text-align :left;
+      width: 10em;
+  }
+  
+  .eEmpresasPresentacion .bloque_resumen dd
+  {
+      float:none;
+  }
+
+
+
+
+/*---------------------------------------------------
+    Presentación del Tutor
+    /TutoresAcademicos/Default.aspx
+  -----------------------------------------------------*/
+
+
+.eTutoresAcademicosPresentacion .bloque_resumen
+{
+  border:1px solid #78BBDD;
+  padding: 1.5em 2em 1.5em 1.5em;
+  margin-bottom:2em; 
+  width:40em;
+  overflow :hidden;
+}
+
+.eTutoresAcademicosPresentacion .bloque_resumen .izquierda
+{
+    float:left;
+    padding-right:2em;
+}
+
+.eTutoresAcademicosPresentacion .bloque_resumen .derecha
+{
+    float:left;
+    margin-left:1em;
+    width:30em;
+}
+
+
+  .eTutoresAcademicosPresentacion .bloque_resumen dl
+  {
+      margin-top:1em;
+      overflow:hidden;
+      width:30em;
+  }
+
+  .eTutoresAcademicosPresentacion .bloque_resumen dt
+  {
+      float: left;
+      clear:left;
+      padding-right: 1em;
+      display:  block;
+      text-align :left;
+      width: 10em;
+  }
+  
+  .eTutoresAcademicosPresentacion .bloque_resumen dd
+  {
+      float:none;
+  }
+  
+  
+  
+
+
+
+
+
+/*---------------------------------------------------
+    Normativa 
+    /demandantes/Programas/AceptarNormativa.aspx
+  -----------------------------------------------------*/
+
+
+     div.normativa
+     {
+         background-color: #EFFEED;
+         overflow-y:scroll;
+         border:1px solid #dedede;
+         padding: 1.5em 2em 1.5em 1.5em;
+         margin-bottom:2em; 
+     }
+     
+
+      div.normativa h3
+      {
+          font-size:1.25em;
+          font-weight:bold;
+          padding:0;         
+          margin:0 0 2em 0;
+          text-align:left;
+      }
+
+      div.normativa h4,
+      div.normativa h5
+      {
+          font-size:1.10em;
+          font-weight:bold;
+          padding:0;         
+          margin:2em 0 2em 0;
+          text-align: left;        
+      }
+
+      
+      div.normativa p
+      {
+          margin:0 0 2em 0;
+      }
+      
+      div.normativa .remarcado
+      {
+          color:#FF0000;
+      }
+
+      
+      div.normativa ul,
+      div.normativa ol
+      {
+          padding-left:3em;
+          margin-bottom:2em;
+      }
+      div.normativa ul li,
+      div.normativa ol li
+      {
+          margin-top:1em;
+      }
+      div.normativa ul li ul,
+      div.normativa ul li ol,
+      div.normativa ol li ul,
+      div.normativa ol li ol
+      {
+          margin-top:1em;
+          margin-bottom:0;
+      }
+      div.normativa ul li li,
+      div.normativa ol li li
+      {
+          padding:0;
+          margin-top:0.5em;
+          margin-bottom:0;
+      }
+      
+      div.normativa h3.resaltado
+      {
+          color:#CC0000;
+      }
+      
+      div.normativa h4.resaltado
+      {
+          color:#669900;
+      }
+      
+      div.normativa h5.resaltado
+      {
+          color:#666699;
+      }
+      
+      div.normativa  em.separador
+      {
+          color:#666699;
+          display:block;
+          margin:3em 0 3em 0;
+          font-weight:bold;
+          font-style:normal;
+      }
+      
+      
+      
+  /*---------------------------------------------------
+    Otros Datos del Demandante
+    /demandantes/OtrosDatos.aspx
+  -----------------------------------------------------*/
+  
+  dl.DemandantesOtrosDatos
+  {
+    width: 59.16em;
+    background-position:-9.3em;
+  }
+
+    dl.DemandantesOtrosDatos dt
+    {
+      width:23em;
+    }
+
+    dl.DemandantesOtrosDatos dd
+    {
+      width: 32.9em;
+    }
+    
+    
+    
+  /*---------------------------------------------------
+    Administración del Demandante
+    /demandantes/Administracion.aspx
+  -----------------------------------------------------*/
+  
+  dl.DemandantesAdministracion
+  {
+    width: 59.16em;
+    background-position:-9.3em;
+  }
+
+    dl.DemandantesAdministracion dt
+    {
+      width:23em;
+    }
+
+    dl.DemandantesAdministracion dd
+    {
+      width: 32.9em;
+    }
+
+/*---------------------------------------------------
+    PSIListadoBolsas
+    /demandantes/PSI/ListadoBolsas.aspx
+  -----------------------------------------------------*/
+
+  dl.ListadoBolsas
+   {
+     width: 40em;
+     clear:both;
+     margin:1em 3em 1em 1em;
+     overflow:hidden;
+     padding:0.5em;
+   }
+   dl.ListadoBolsas dt
+   {
+       width: 10em;
+       font-weight:bold;
+       float:left;
+       /*  background-color:#00FF00;*/
+      
+   }
+   dl.ListadoBolsas dd
+   {
+       width: 10em;
+       float:left;
+      /*  background-color:#00FF00;*/
+   }
+   
+   dl.ListadoBolsas .salto
+   {
+       clear:both;
+   }
+   
+   
+   
+    /*---------------------------------------------------
+    Preseleccion
+    /Administracion/Preseleccion/Default.aspx
+  -----------------------------------------------------*/
+  
+  
+  dl.CabeceraPre
+   {
+     font-size:10px;
+     vertical-align:top;
+     clear:both;
+     overflow:hidden;
+     padding:0.5em;
+   }
+   dl.CabeceraPre dt
+   {
+       width: 5em;
+       float:left;
+       /*  background-color:#00FF00;*/
+      
+   }
+   dl.CabeceraPre dd
+   {
+       float:left;
+      /*  background-color:#00FF00;*/
+   }
+   
+   dl.CabeceraPre .salto
+   {
+       clear:both;
+   }
+   
+  
+  dl.ListaPreselecAdm
+   {
+       font-size:10px;
+     width: 20em;
+     vertical-align:top;
+     clear:both;
+     overflow:hidden;
+     padding:0.5em;
+   }
+   dl.ListaPreselecAdm dt
+   {
+       width: 10em;
+       float:left;
+       /*  background-color:#00FF00;*/
+      
+   }
+   dl.ListaPreselecAdm dd
+   {
+       width: 10em;
+       float:left;
+      /*  background-color:#00FF00;*/
+   }
+   
+   dl.ListaPreselecAdm .salto
+   {
+       clear:both;
+   }
+   
+    /*---------------------------------------------------
+    Preseleccion
+    /Administracion/Preseleccion/Default.aspx
+  -----------------------------------------------------*/
+
+  ul.ListaSimple
+  {
+      font-size:10px;
+      list-style-type:none;
+      vertical-align:top;
+     clear:both;
+     overflow:hidden;
+     padding:0.5em;
+      }
+  dl.ListaPreselecAdmFec
+   {
+     font-size:10px;
+     width: 12em;
+     vertical-align:top;
+     clear:both;
+     overflow:hidden;
+     padding:0.5em;
+   }
+   dl.ListaPreselecAdmFec dt
+   {
+       width: 6em;
+       float:left;
+       /*  background-color:#00FF00;*/
+      
+   }
+   dl.ListaPreselecAdmFec dd
+   {
+       width: 6em;
+       float:left;
+      /*  background-color:#00FF00;*/
+   }
+   
+   dl.ListaPreselecAdmFec .salto
+   {
+       clear:both;
+   }
+   
+   
+   
+   
+   
+   
+   
+   dl.ListaPreselecAccionEnt
+   {
+     font-size:10px;
+     width: 10em;
+     vertical-align:top;
+     clear:both;
+     overflow:hidden;
+     padding:0.5em;
+   }
+   dl.ListaPreselecAccionEnt dt
+   {
+       width: 7em;
+       float:left;
+       /*  background-color:#00FF00;*/
+      
+   }
+   dl.ListaPreselecAccionEnt dd
+   {
+       width: 3em;
+       float:left;
+      /*  background-color:#00FF00;*/
+   }
+   
+   dl.ListaPreselecAccionEnt .salto
+   {
+       clear:both;
+   }
+   
+   .tlf_movil_pre
+   {
+       color: blue;
+       width: 100%;
+       font-size: 0.75em;
+       border-top: #6C6C6C 1px solid;
+       height: 3.17em;
+   }
+   
+   /*---------------------------------------------------
+    Preseleccion
+    /Empresas/Preseleccion/Preseleccion.aspx
+  -----------------------------------------------------*/
+
+  dl.ListaPreselecEnt
+   {
+     width: 25em;
+     vertical-align:top;
+     clear:both;
+     overflow:hidden;
+     padding:0.5em;
+   }
+   dl.ListaPreselecEnt dt
+   {
+       width: 10em;
+       font-weight:bold;
+       float:left;
+       /*  background-color:#00FF00;*/
+      
+   }
+   dl.ListaPreselecEnt dd
+   {
+       width: 10em;
+       float:left;
+      /*  background-color:#00FF00;*/
+   }
+   
+   dl.ListaPreselecEnt .salto
+   {
+       clear:both;
+   }
+   
+    /*---------------------------------------------------
+    Preseleccion
+    /Empresas/Preseleccion/Preseleccion.aspx
+  -----------------------------------------------------*/
+
+  dl.ListaPreselecEntOpc
+   {
+     width: 25em;
+     vertical-align:top;
+     clear:both;
+     overflow:hidden;
+     padding:0.5em;
+   }
+   dl.ListaPreselecEntOpc dt
+   {
+       width: 21em;
+       vertical-align:top;
+     
+       font-weight:bold;
+       float:left;
+       /*  background-color:#00FF00;*/
+      
+   }
+   dl.ListaPreselecEntOpc dd
+   {
+       width: 4em;
+       vertical-align:top;
+     
+       float:left;
+      /*  background-color:#00FF00;*/
+   }
+   
+   dl.ListaPreselecEntOpc .salto
+   {
+       clear:both;
+   }
+   
+   
+   dl.ObservacionesPre
+   {
+     vertical-align:top;
+     clear:both;
+     overflow:hidden;
+     font-size:10px;
+     padding-left:0.5em;
+     /*padding:0.5em;*/
+   }
+   dl.ObservacionesPre dt
+   {
+       width: 10em;
+       vertical-align:top;
+     
+       font-weight:bold;
+       float:left;
+       /*  background-color:#00FF00;*/
+      
+   }
+   dl.ObservacionesPre dd
+   {
+       vertical-align:top;
+     
+       float:left;
+      /*  background-color:#00FF00;*/
+   }
+   
+   dl.ObservacionesPre .salto
+   {
+       clear:both;
+   }
+   
+   
+   /*---------------------------------------------------
+    Entrevistas
+    /demandantes/Entrevistas.aspx
+  -----------------------------------------------------*/
+
+  dl.Entrevistas
+   {
+     width: 40em;
+     clear:both;
+     margin:1em 3em 1em 1em;
+     overflow:hidden;
+     padding:0.5em;
+   }
+   dl.Entrevistas dt
+   {
+       margin:0 0.5em 0.5em 0;
+     
+       font-weight:bold;
+       float:left;
+       /*  background-color:#00FF00;*/
+      
+   }
+   dl.Entrevistas dd
+   {
+       margin:0 0.5em 0.5em 0;
+     
+       float:left;
+      /*  background-color:#00FF00;*/
+   }
+   
+   dl.Entrevistas .salto
+   {
+       clear:both;
+   }
+   
+   div.botonera_inferior_entrevistas
+  {
+     margin-top:1em;
+     margin-right:3em;
+     text-align:right;
+  }
+   
+  /*---------------------------------------------------
+    Imprimir Curriculum
+    /demandantes/Imprimir/Default.aspx
+  -----------------------------------------------------*/
+
+
+/* resumen demandante */
+div.bloque_imprimir
+{
+  border:1px solid #dedede;
+  padding: 1.5em 2em 1.5em 1.5em;
+  margin-bottom:0.5em; 
+  width:40em;
+  overflow :hidden
+}
+
+div.bloque_imprimir .izquierda
+{
+    float:left;
+    margin-right:2em;
+    width:6em;
+
+}
+
+div.bloque_imprimir .derecha
+{
+    float:left;
+    margin-left:1em;
+}
+
+div.bloque_imprimir .datos_curriculares
+{
+    overflow:hidden;
+}
+
+div.bloque_imprimir .observaciones
+{
+   clear:both;
+   margin-top:2em;
+}
+
+div.bloque_imprimir_botonera
+{
+  width:43.5em;
+  overflow :hidden;
+  text-align:right; 
+}
+div.bloque_imprimir_botonera a
+   {
+            color:#3366FF;
+            text-decoration:none;
+        }
+
+div.bloque_imprimir_botonera ul
+        {
+          margin:0;
+          padding:0;
+        
+        }
+      
+div.bloque_imprimir_botonera ul li
+          {
+            display:inline;
+            margin: 0 0 0 1em;
+          }
+      
+div.bloque_imprimir_botonera ul li img
+            {
+              margin-right:0.5em;
+            }      
+   
+/*---------------------------------------------------
+    Respuestas Encuestados
+    /demandantes/Encuestas/Pregunta.aspx
+  -----------------------------------------------------*/
+
+
+fieldset.pregunta {
+  padding:1em 0 1em 0;
+  background-image:url(../images/maquetacion/contenido/fondo_formulario.png);
+  background-repeat:repeat-y;
+  background-position:-26.5em;
+  background-color:#f8f8f8;
+  border: 1px solid #aec0c9;
+  overflow:hidden;
+  display:block;
+    margin-right: 0em;
+    margin-left: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+  fieldset.pregunta legend span{  /* necesario por un bug en ie8 */
+      display: none;
+    }
+    
+  fieldset.pregunta .respuesta {  
+    display: block;
+    clear: both;
+    /*margin-top: 0.8em;*/
+  }
+fieldset.pregunta .respuesta .marcar 
+{
+    margin-left: 5em;
+    display: block;
+}
+
+  fieldset.pregunta .respuesta .marcar input 
+  {  
+    float:left;
+    padding: 0;
+    margin:0;
+  } 
+
+  fieldset.pregunta .respuesta .marcar label 
+  {  
+    margin-left: 1.6em;
+    margin-bottom: 0.2em;
+    float:left;
+    text-align:left;    
+    display:block;
+  }
+  
+  fieldset.pregunta .respuesta .entrada_datos, fieldset.pregunta .respuesta .entrada_datos_textarea
+  {
+    /*float:left;*/
+    width: 40em;
+    clear: left;
+    display:block;
+    margin:0 0 0 8em;
+    padding: 0;
+  }  
+
+  .botonera_responder_encuesta {
+    background-color: #F8F8F8;
+    border-color: #AEC0C9;
+    border-right: 1px solid #AEC0C9;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    margin: 0 0 1em 6.8em;
+    padding: 0.5em 0.5em 0.5em 0;
+    text-align: right;
+    width: 56em;
+}
+
+.form_boton_derecha {
+  color : #000000;
+  font-size : 0.90em;
+  font-style : normal;
+  font-variant : normal;
+  font-weight: normal;
+  border : 1px solid #91A7BF;
+  height : auto;
+  background-color: #eee;
+  padding:0.25em 0.5em 0.25em 1em;
+  cursor:pointer;
+  overflow: visible;
+  width:100px;
+  text-align: left;
+  background-image:url(../images/maquetacion/boton_fondo.png);
+  background-repeat:no-repeat;
+  background-position:left;
+}
+.form_boton_izquierda {
+  color : #000000;
+  font-size : 0.90em;
+  font-style : normal;
+  font-variant : normal;
+  font-weight: normal;
+  border : 1px solid #91A7BF;
+  height : auto;
+  background-color: #eee;
+  padding:0.25em 1em 0.25em 0.5em;
+  cursor:pointer;
+  overflow: visible;
+  width:100px;
+  text-align: right;
+  background-image:url(../images/maquetacion/boton_fondo.png);
+  background-repeat:no-repeat;
+  background-position:left;
+}
+/* PRUEBA QUE NO FUNCIONABA PROGRAMATICAMENTE
+  fieldset.pregunta span input {  
+    float:left;
+    vertical-align:top;
+    display:block;
+    margin-left: 14em;
+    margin-right: 2em;
+  }
+  fieldset.pregunta span label {  
+    width:40em;
+    float:left;
+    margin-right: 0em;
+    padding-left: 0em;
+    text-align:left;
+    vertical-align:top;
+    display:block;
+  }
+    fieldset.pregunta span br  
+    {
+        clear: both;
+    }
+*/
+
+
+
+
+   /*---------------------------------------------------
+    Contactos
+    /General/Contactos.aspx
+  -----------------------------------------------------*/
+
+
+
+.eContactos
+{
+    color:#000;
+}
+
+
+
+.eContactos .bloque_nivel_1
+{ 
+    margin-top: 1em;
+    /*width: 85%;*/
+    /*border: 1px solid #84ACF4;*/
+    padding: 1.5em 2em 0.5em 2em;
+    overflow: hidden;
+}
+
+
+.eContactos ul
+{
+    
+}
+
+.eContactos ul li
+{
+     list-style-type:none;
+     text-decoration:none;
+     clear:both;
+    
+}
+
+.eContactos ul li h3
+{
+    margin-top: 1em;
+    color: #3399CC;
+}
+
+
+
+.eContactos ul li dt
+{
+    font-weight:bold;
+    margin-bottom:0.5em;
+    color:#000000;
+}
+
+.eContactos ul li dd
+{
+    margin-bottom:1em;
+}
+
+.eContactos ul li ul
+{
+    
+}
+
+.eContactos ul li ul li
+{
+    margin-bottom:1em;
+    overflow:hidden;
+    
+}
+
+
+.eContactos ul li ul li h4
+{
+    margin-bottom: 1em;
+    /*color: #800000;*/
+    color:#000;
+    padding-bottom:0.5em;
+
+}
+
+
+
+.eContactos ul li ul li dl
+{
+    margin-top:1em;
+}
+
+.eContactos ul li ul li dt
+{
+    float: left;
+    clear:left;
+    padding-right: 1em;
+    display:  block;
+    text-align :left;
+    width: 8em;
+    color:#000000;
+    font-weight:normal;
+    font-variant:small-caps;
+    
+}
+  
+.eContactos ul li ul li dd
+{
+    margin:0;
+    float:left;
+}
+
+img.cargando
+{
+    vertical-align: middle; 
+    margin-right:10px;
+}
+
+
+
+
+  /*---------------------------------------------------
+    LOPD 
+  -----------------------------------------------------*/
+
+
+  .eLOPDTextoAceptacion
+  {
+      background-color: #FFE;
+      overflow:auto;
+      border:1px solid #DEDEDE;
+      padding: 1.5em 2em 1.5em 1.5em;
+      margin-bottom:2em;
+      height: 15em;
+   }
+
+
+  .eLOPDTexto
+  {
+      background-color: #FFE;
+      border:1px solid #DEDEDE;
+      padding: 1.5em 2em 1.5em 1.5em;
+      margin-bottom:2em;
+   }
+   
+   
+   
+
+
+  .eLOPDTexto ol, .eLOPDTextoAceptacion ol,
+  .eLOPDTexto ul, .eLOPDTextoAceptacion ul
+  {
+     margin:1em 0 0 0;
+   }
+   
+   
+   
+
+
+  .eLOPDTexto li, .eLOPDTextoAceptacion li
+  {
+      margin:0 0 1em 2em;
+   }

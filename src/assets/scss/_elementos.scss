@@ -1,0 +1,1259 @@
+﻿/* --------------------------------------------------- */
+/* PRESENTACIÓN DEL FORMULARIO                         */
+/* --------------------------------------------------- */
+
+
+fieldset.principal {
+  padding:1em 0 1em 0;
+ /* margin: 0 0 0 0;*/
+  background-image:url(../images/maquetacion/contenido/fondo_formulario.png);
+  background-repeat:repeat-y;
+  /*background-position:left;*/
+  background-position:-16.3em;
+  background-color:#f8f8f8;
+  border: 1px solid #aec0c9;
+  width: 59.16em; 
+  overflow:hidden;
+  display:block;
+  
+}
+
+  fieldset.principal legend {  
+    margin-left: 2em;  
+    padding: 0; 
+    color: #000;  
+    font-weight: bold;
+  }
+
+    fieldset.principal legend span{  /* necesario por un bug en ie8 */
+      display: none;
+    }
+  fieldset.principal label span.bloque_derecho {
+    /*width:12em;*/
+    width:40em;
+    float:left;
+    width:auto;
+    margin-right: 0em;
+    padding-left: 0em;
+    text-align:left;
+    vertical-align:top;
+    display:block;
+  }
+  
+  fieldset.principal label span{
+    /*width:12em;*/
+    width:14em;
+    float:left;
+    margin-right: 2em;
+    padding-left:2em;
+    text-align:right;
+    vertical-align:top;
+    display:block;
+  }
+
+  fieldset.principal label span.bloque_derecho .boton 
+  {
+      margin-top:0.5em;
+  }  
+  
+  fieldset.principal label span.bloque_derecho p 
+  {
+      margin:1em 0 0 0;
+  }
+
+
+  fieldset.principal label div.bloque_derecho
+  {
+      text-align:left;
+      padding:0em;
+      display:block;
+      overflow:hidden;
+  }
+
+
+  fieldset.principal label div.bloque_derecho div.comentario
+  {
+      text-align:left;
+      padding:0em;
+      margin-bottom:1em;
+      color:#777;
+      font-size:0.75em;
+  }
+      
+  
+  fieldset.principal label span span{
+    margin:0.5em 0 0 0;
+    padding:0;
+    color:#555;
+    font-size:0.90em;
+    float:right;
+  }
+  
+  
+    
+  fieldset.principal label { 
+    float: left;  
+    /*width: 59.16em;  */
+    width:100%;
+    text-align: left;
+    color:#181a65;
+    clear:left;
+    display:block;
+    margin:0.5em 0 0.5em 0;
+  }
+
+
+
+  em.obligatorio { 
+    margin-right: 0.5em;  
+    color:#FF0000;
+    clear:right;
+  }
+  
+   fieldset.principal  fieldset legend span {
+       display: none;
+   }
+
+  /*
+fieldset.principal fieldset{
+    padding:0;
+    border:none;
+    background:none;
+    width: 45.16em;
+    display:block;
+  }
+
+ fieldset.principal  fieldset legend {  
+  
+    text-align:right;
+    vertical-align:top;
+    color:#181a65;
+    font-weight:normal;
+    display:block;
+    padding-left:6.5em;
+    padding-top:1em;    
+  }
+
+  fieldset.principal  fieldset label { 
+    float: left;  
+    border:none;
+    width: 40.16em;
+    vertical-align:top;
+    text-align: left;
+    color:#000000;
+    margin-top:-1.1em;
+    margin-bottom:1.5em;
+    padding-left:13em;
+  }
+
+  fieldset.principal  fieldset span{
+    width:12em;
+    float:left;
+    margin-right: 2em;
+    text-align:right;
+    vertical-align:top;
+
+  }
+      */
+
+  fieldset.botonera {
+    border-style: none;
+    background:none;
+    text-align:right;
+    margin-left:0;
+    padding:0;
+  }
+
+  /*
+  Tablas de datos.
+  */
+  
+  
+  /* Modificaciones para que los formularios salgan con label y contenidos en filas */
+
+  fieldset.filas {
+    padding-bottom:1em;
+  }
+
+    fieldset.basico .filas ol li {
+      padding:0;
+      float:none;
+    }
+
+      fieldset.filas ol li label{
+        float:none;
+        display:block;
+        text-align:left;
+        margin-top:1.5em;
+        margin-bottom:0.5em;
+        width:auto;
+        font-weight:bold;
+      }
+
+/* --------------------------------------------------- */
+/* ELEMENTOS DE FORMULARIOS                            */
+/* --------------------------------------------------- */
+
+
+.form_input, .form_input_positivo, .form_input_negativo{
+  font-size : 0.90em;
+  font-family: Verdana;
+  font-style : normal;
+  font-variant : normal;
+  font-weight: normal;
+  color : #000000;
+  border : 1px solid #91A7BF;
+  height : auto;
+  background-color : #FFFFFF;
+}
+
+.form_input_positivo{
+    color: green;
+} 
+
+.form_input_negativo {
+    color: red;
+}
+
+.form_input_inhabilitado
+{
+  font-size : 0.90em;
+  font-family: Verdana;
+  font-style : normal;
+  font-variant : normal;
+  font-weight: normal;
+  color : #000;
+  border : 1px solid #91A7BF;
+  height : auto;
+  background-color : #EEE;
+}
+
+
+.form_boton {
+  /*color : #000000;*/
+  font-size : 0.90em;
+  font-style : normal;
+  font-variant : normal;
+  font-weight: normal;
+  border : 1px solid #91A7BF;
+  height : auto;
+  background-color: #eee;
+  padding:0.25em 0.5em 0.25em 0.5em;
+  cursor:pointer;
+  overflow: visible;
+  background-image:url(../images/maquetacion/boton_fondo.png);
+  background-repeat:no-repeat;
+  background-position:left;
+}
+
+
+
+.form_boton_resaltado {
+  color : #009900;
+  font-size : 0.90em;
+  font-style : normal;
+  font-variant : normal;
+  font-weight: normal;
+  border : 1px solid #91A7BF;
+  height : auto;
+  background-color: #eee;
+  padding:0.25em 0.5em 0.25em 0.5em;
+  cursor:pointer;
+  overflow: visible;
+  background-image:url(../images/maquetacion/boton_fondo.png);
+  background-repeat:no-repeat;
+  background-position:left;
+}
+
+
+
+.form_boton_pulsado {
+  color : #009900;
+  font-size : 0.90em;
+  font-style : normal;
+  font-variant : normal;
+  font-weight: normal;
+  border : 1px solid #91A7BF;
+  height : auto;
+  background-color: #eee;
+  padding:0.25em 0.5em 0.25em 0.5em;
+  cursor:pointer;
+  overflow: visible;
+  background-image:url(../images/maquetacion/boton_fondo.png);
+  background-repeat:no-repeat;
+  background-position:left;
+}
+
+
+/* convierte un botón en texto*/
+.boton_texto { 
+   background: transparent; 
+   border:none;
+   color: #0000CC;
+   width:auto;
+   margin: 0;
+   padding: 0;
+   cursor:pointer;
+   overflow: visible;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/* convierte texto en botón */
+.texto_boton { 
+  font-size : 0.90em;
+  font-style : normal;
+  font-variant : normal;
+  font-weight: normal;
+  border : 1px solid #91A7BF;
+  height : auto;
+  background-color: #eee;
+  padding:0.35em 0.75em 0.35em 0.75em;
+  cursor:pointer;
+  overflow: visible;
+  background-image:url(../images/maquetacion/boton_fondo.png);
+  background-repeat:no-repeat;
+  background-position:left;  
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+/* --------------------------------------------------- */
+/* LISTA VALIDACIONES EN FORMULARIOS                   */
+/* --------------------------------------------------- */
+
+
+div.resumen_validaciones{
+  border: 1px solid #FF0000;
+  padding: 1.5em;
+  margin: 0 0 2em 0;
+  color: #000000;
+  /*width: 56.2em; */
+}
+
+  div.resumen_validaciones h3
+  {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:1.25em;
+    margin-bottom:1em;
+    color: #FF0000;
+
+  }
+  
+  div.resumen_validaciones p{
+    margin:1em 0;
+  }
+  
+  div.resumen_validaciones ul li {
+   margin :0 0 0 1.5em;
+  }
+  
+    div.resumen_validaciones ul li ul li{
+      margin :0 0 0 3em;
+    }
+
+
+/* --------------------------------------------------- */
+/* TABLAS                                              */
+/* --------------------------------------------------- */
+
+.estilo_tabla_libre
+{
+    clear:both;}
+.estilo_tabla {
+  border-collapse:collapse;
+}
+
+  .estilo_tabla caption {
+    visibility:hidden;
+  }
+
+  .estilo_tabla thead tr, .estilo_tabla thead th
+  {
+    background-image:url(../images/maquetacion/contenido/encabezado_tabla.png);
+    background-repeat :repeat-x;
+    background-position  :left;
+    background-color  :#daedf5;  
+  }
+  .estilo_tabla thead th {
+    padding: 0.5em 0.63em 0.31em 0.63em;
+    color:#181a65;
+    text-align:left;
+    border: 1px solid #EEE;
+    border-bottom-color:#BBB;
+  }
+  
+  .estilo_tabla thead tr.orden_asc, 
+  .estilo_tabla thead th.orden_asc, 
+  .estilo_tabla thead tr.ordenable:hover, 
+  .estilo_tabla thead th.ordenable:hover
+  {
+      background-image:url(../images/botones/orden_asc.gif);
+      background-repeat: no-repeat;
+      background-position: center top;
+  }
+  .estilo_tabla thead tr.orden_desc, 
+  .estilo_tabla thead th.orden_desc
+  {
+      background-image:url(../images/botones/orden_asc.gif);
+      background-repeat: no-repeat;
+      background-position: center top;
+  }
+
+
+  /*.estilo_tabla thead tr.ordenable:hover, .estilo_tabla thead th.ordenable:hover
+  {
+      background-image:none;
+  }*/
+     
+  .estilo_tabla thead th a{
+    color:#181a65;
+  }
+
+  .estilo_tabla tbody tr {
+    background: url(../images/fondos/fondo_tabla_30.gif) bottom repeat-x  #ffffff;
+    color: #666;
+    height:1.88em;
+  }
+
+  .estilo_tabla tbody td {
+    padding: 0.31em 0.63em;
+    border: 1px solid #DDD;
+    background-color:#fbfbfb;
+  }
+
+
+  .estilo_tabla tfoot td {
+    padding: 1em 0.63em 0.63em 0.63em;
+    color: #000;
+    text-align:left;
+    border:none;
+  }
+
+  /*estilo de una celda cuando está marcada*/
+  .estilo_tabla .celda_marcada
+  {
+    background-color:#EFFEED;  
+  }
+  
+  /*estilo de una celda con el texto alineado verticalmente arriba (especial para cuando hay rowspan)*/
+  .estilo_tabla .celda_contenido_top
+  {
+    vertical-align:top;
+    padding-top:0.62em  
+  }
+  
+  .estilo_tabla  ul
+  {
+    padding:0;
+    margin:0 0 0 1em;
+  }
+  
+  .enmarcado .estilo_tabla ul li,
+  .enmarcado .estilo_tabla ol li{
+    padding:0;
+  }
+
+  
+
+/* --------------------------------------------------- */
+/* Presentación de datos con listas de definición      */
+/* --------------------------------------------------- */
+
+
+/* Tipo I */
+
+dl.presentacion_datos
+{
+  padding:1em 0 1em 0;
+  margin: 0 0 0 0;
+  background-image:url(../images/maquetacion/contenido/fondo_formulario.png);
+  background-repeat:repeat-y;
+  background-position:-16.35em;
+  background-color:#f8f8f8;
+  border: 1px solid #aec0c9;
+  width: 59.16em;
+  overflow:hidden;
+  display:block;
+}
+
+  dl.presentacion_datos dt
+  {
+    float: left;
+    clear:   left;
+    display:  block;
+    text-align:right;
+    color:#181a65;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:1em;
+    width:16em;
+    padding: 0.5em 1em 0.5em 0;
+    font-weight:normal;
+    background-color:Transparent;    
+  }
+
+  dl.presentacion_datos dd
+  {
+    float: left;
+    width:39.9em;
+    color:#000000;
+    padding: 0.5em 0 0.5em 1em;
+    font-weight:normal;
+    clear:   right;
+    display:  block;
+  }
+
+
+  dl.presentacion_datos dd ul
+  {
+      margin-left:1em;
+  }
+  
+  dl.presentacion_datos dd ol
+  {
+      margin-left:2em;
+  }
+  
+  
+  
+  /* Modificación para adaptar una tabla a un definition list */
+  
+  
+  
+  table.presentacion_datos
+  {
+      border: 1px solid #aec0c9;
+  }
+  
+  table.presentacion_datos th
+  {
+    width:16em;
+    background-image:url(../images/maquetacion/contenido/fondo_formulario.png);
+    background-repeat:repeat-y;
+    background-position:-16.35em;
+    background-color:#f8f8f8;
+    text-align:right;
+    color:#181a65;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:1em;
+    width:16em;
+    padding: 0.5em 1em 0.5em 0;
+    font-weight:normal;
+    background-color:Transparent;       
+  }
+  
+  table.presentacion_datos td
+  {
+    width:41em;
+    color:#000000;
+    padding: 0.5em 0 0.5em 1em;
+    background-color:#f8f8f8;
+    font-weight:normal;
+  }
+  
+  table.presentacion_datos dd ul
+  {
+      margin-left:1em;
+  }
+  
+  table.presentacion_datos dd ol
+  {
+      margin-left:2em;
+  }
+
+
+
+/* Tipo II */
+
+dl.presentacion_datos_2
+{
+  padding:1em 0 1em 0;
+  margin: 0 0 0 0;
+  border: 1px solid #aec0c9;
+  width: 59.16em;
+  overflow:hidden;
+  display:block;
+}
+
+  dl.presentacion_datos_2 dt
+  {
+    float: left;
+    clear:   left;
+    display:  block;
+    text-align:right;
+    color:#181a65;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:1em;
+    width:16em;
+    padding: 0.5em 1em 0.5em 0;
+    font-weight:bold;
+    background-color:Transparent;    
+  }
+
+  dl.presentacion_datos_2 dd
+  {
+    float: left;
+    /*width: 41.9em;*/
+    width:39.9em;
+    color:#000000;
+    /*background-color:#f8f8f8; */
+    padding: 0.5em 0 0.5em 1em;
+    font-weight:normal;
+    clear:   right;
+    display:  block;
+  }
+
+
+  dl.presentacion_datos_2 dd ul
+  {
+      margin-left:1em;
+  }
+  
+  dl.presentacion_datos_2 dd ol
+  {
+      margin-left:2em;
+  }
+  
+  
+  
+  /* Modificación para adaptar una tabla a un definition list */
+  
+  
+  
+  table.presentacion_datos_2
+  {
+      border: 1px solid #aec0c9;
+  }
+  
+  table.presentacion_datos_2 th
+  {
+    width:16em;
+    text-align:right;
+    color:#181a65;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:1em;
+    width:16em;
+    padding: 0.5em 1em 0.5em 0;
+    font-weight:bold;
+    background-color:Transparent;       
+  }
+  
+  table.presentacion_datos_2 td
+  {
+    width:41em;
+    color:#000000;
+    padding: 0.5em 0 0.5em 1em;
+    font-weight:normal;
+    display:  block;
+  }
+  
+  table.presentacion_datos_2 dd ul
+  {
+      margin-left:1em;
+  }
+  
+  table.presentacion_datos_2 dd ol
+  {
+      margin-left:2em;
+  }
+
+
+
+
+/*
+Tipo III
+Los datos se presentan en filas simples de termino definición
+*/
+
+dl.presentacion_datos_3
+{
+  overflow:hidden;
+  padding: 0;
+  margin: 0;
+}
+
+  dl.presentacion_datos_3 dt
+  {
+    display:inline;
+    text-align:left;
+    margin:0 0.25em 0 0;
+    padding: 0;
+    width:auto;
+  }
+
+  dl.presentacion_datos_3 dd
+  {
+    overflow:hidden;
+    width:auto;
+    display:inline;
+    margin:0;
+    padding:0;
+  }
+
+
+
+/*Tipo IV*/
+dl.presentacion_datos_4
+{
+  padding:1em 0 1em 0;
+  margin: 0 0 0 0;
+  background-image:url(../images/maquetacion/contenido/fondo_formulario.png);
+  background-repeat:repeat-y;
+  /*background-position:-18.3em;*/
+  background-position:-16.35em;
+  background-color:#f8f8f8;
+  border: 1px solid #aec0c9;
+  width: 59.16em;
+  overflow:hidden;
+  display:block;
+}
+
+  dl.presentacion_datos_4 dt
+  {
+    float: left;
+    clear:   left;
+    display:  block;
+    text-align:right;
+    color:#181a65;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:1em;
+    /*width:14em;*/
+    width:16em;
+    padding: 0.5em 1em 0.5em 0;
+    font-weight:normal;
+    background-color:Transparent;    
+  }
+
+  dl.presentacion_datos_4 dd
+  {
+    float: left;
+    /*width: 41.9em;*/
+    width:39.9em;
+    color:#000000;
+    /*background-color:#f8f8f8; */
+    padding: 0.5em 0 0.5em 1em;
+    font-weight:normal;
+    clear:   right;
+    display:  block;
+  }
+
+
+  dl.presentacion_datos_4 dd ul
+  {
+      margin-left:1em;
+  }
+  
+  dl.presentacion_datos_4 dd ol
+  {
+      margin-left:2em;
+  }
+/*FIN DE TIPOS IV*/
+
+
+
+  
+  div.botonera_superior
+  {
+    margin-bottom:2em;
+  }
+  div.botonera_inferior
+  {
+     margin-top:2em;
+  }
+  
+
+  div.botonera_inferior_integrada
+  {
+    width: 41.75em; 
+    margin:0 0.5em 1em 16.9em;
+    padding:0.5em 0.5em 0.5em 0;
+    text-align:right;    
+    background-color:#f8f8f8;
+    border: 1px solid #aec0c9;
+    border-top: none;
+  }
+  
+
+  div.botonera_superior_enmarcada
+  {
+    width: 58.66em; 
+    margin:2em 0.5em 0 0;
+    padding:0.5em 0.5em 0.5em 0;
+    text-align:right;
+    background-image:url(../images/maquetacion/contenido/fondo_formulario.png);
+    background-repeat:repeat-y;
+    /*background-position:-18.3em;*/
+    background-position:-16.3em;
+    background-color:#f8f8f8;
+    border: 1px solid #aec0c9;
+    border-bottom: none;
+  }
+  div.botonera_inferior_enmarcada
+  {
+    width: 58.66em; 
+    margin:0 0.5em 1em 0;
+    padding:0.5em 0.5em 0.5em 0;
+    text-align:right;
+    background-image:url(../images/maquetacion/contenido/fondo_formulario.png);
+    background-repeat:repeat-y;
+    /*background-position:-18.3em;*/
+    background-position:-16.3em;
+    background-color:#f8f8f8;
+    border: 1px solid #aec0c9;
+    border-top: none;
+  }
+
+
+  /* otros elementos que afectan a la presentación */
+
+
+  strong.titulo_presentacion
+  {
+    display:block; 
+    margin:0 0 1.5em 0;
+    font-weight:normal;
+  } 
+
+  ul.lista_presentacion li
+  {
+    list-style-type : none;
+    text-decoration: none;
+    margin-top: 0pt;
+    margin-right: 0pt;
+    margin-bottom: 0pt;
+    margin-left: 0pt;
+    padding-top: 0pt;
+    padding-right: 0pt;
+    padding-bottom: 0pt;
+    padding-left: 0pt;
+    color: #3399ff;
+    font-weight: bold;
+  }
+  
+  
+  /* --------------------------------------------------- */
+  /* Marco con scrollbar                                 */
+  /* --------------------------------------------------- */
+  
+  
+  .marco_scrollbar_vertical
+  {
+      height:15em;
+      overflow-y:scroll;
+      border:1px solid #dedede;
+      padding: 1.5em 2em 1.5em 1.5em;
+      margin-bottom:2em;        
+  }
+  
+    .marco_scrollbar_vertical ul,
+    .marco_scrollbar_vertical ol
+    {
+       padding:0 0 1em 2em;
+    }
+       
+    .marco_scrollbar_vertical ul li,
+    .marco_scrollbar_vertical ol li
+    {
+       padding:1em 0 0 0;
+    }
+
+
+
+
+
+  /* --------------------------------------------------- */
+  /* Mensaje enmardo para mostrar alertas                */
+  /* --------------------------------------------------- */
+
+
+     
+  .mensaje_alerta 
+  {
+      border: 1px solid #FF0000;
+      padding: 1.5em;
+      margin-bottom: 2em;
+      color: #000000;
+      width: 56.2em; 
+  }
+
+  .mensaje_alerta h3 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:1.25em;
+    margin-bottom:1em;
+    color: #FF0000;
+  }
+  
+  .mensaje_alerta p{
+    margin:1em 0;
+  }
+  
+  .mensaje_alerta ul li {
+   margin :0 0 0 1.5em;
+  }
+  
+    .mensaje_alerta ul li ul li{
+      margin :0 0 0 3em;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* --------------------------------------------------- */
+/* TABLAS PARA ADMINISTRADORES                         */
+/* --------------------------------------------------- */
+
+
+.estilo_tabla_adm .registro_personal
+{
+    background-color:#EFFEED;
+    width:100%;
+}
+
+.estilo_tabla_adm {
+  border-collapse:collapse;
+ /* width:100%;*/
+}
+
+  .estilo_tabla_adm caption {
+    visibility:hidden;
+  }
+
+.estilo_tabla_adm thead tr, .estilo_tabla_adm thead th
+  {
+    background-color  :#cde393; 
+ 
+  }
+  .estilo_tabla_adm thead th {
+    padding: 0.5em 0.63em 0.31em 0.63em;
+    color:#181a65;
+    text-align:left;
+    border: 1px solid #EEE;
+    border-bottom-color:#BBB;    
+  }
+  
+  .estilo_tabla_adm thead tr.orden_asc, 
+  .estilo_tabla_adm thead th.orden_asc, 
+  .estilo_tabla_adm thead tr.ordenable:hover, 
+  .estilo_tabla_adm thead th.ordenable:hover
+  {
+      background-image:url(../images/botones/orden_asc.gif);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-color: #e6f7bb;
+      
+  }
+  .estilo_tabla_adm thead tr.orden_desc, 
+  .estilo_tabla_adm thead th.orden_desc
+  {
+      background-image:url(../images/botones/orden_asc.gif);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-color: #e6f7bb;
+  }
+
+
+  
+div.contenedor .cuerpo  .estilo_tabla_adm td,
+div.contenedor .cuerpo  .estilo_tabla_adm th
+{
+  border: 1px solid #aab982;
+}
+
+  
+     
+  .estilo_tabla_adm thead th a{
+    color:#181a65;
+  }
+
+  .estilo_tabla_adm tbody tr {
+    background: url(../images/fondos/fondo_tabla_30.gif) bottom repeat-x  #ffffff;
+    color: #6a812a;
+    height:1.88em;
+  }
+
+  .estilo_tabla_adm tbody td {
+    padding: 0.31em 0.63em;
+    border: 1px solid #DDD;
+    /*background-color:#fbfbfb;*/
+  }
+  .estilo_tabla_adm tbody td.modificado {
+    background-color :#DAE0C8;
+  }
+
+
+  .estilo_tabla_adm tfoot td {
+    padding: 1em 0.63em 0.63em 0.63em;
+    color: #000;
+    text-align:left;
+    border:none;
+  }
+
+  /*estilo de una celda cuando está marcada*/
+  .estilo_tabla_adm .celda_marcada
+  {
+    background-color:#EFFEED;  
+  }
+  
+  /*estilo de una celda con el texto alineado verticalmente arriba (especial para cuando hay rowspan)*/
+  .estilo_tabla_adm .celda_contenido_top
+  {
+    vertical-align:top;
+    padding-top:0.62em  
+  }
+  
+  .estilo_tabla_adm  ul
+  {
+    padding:0;
+    margin:0 0 0 1em;
+  }
+  
+  .enmarcado .estilo_tabla_adm ul li,
+  .enmarcado .estilo_tabla_adm ol li{
+    padding:0;
+  }
+  
+ /*.estilo_tabla_adm tr .tr_hover
+ {
+     background-color:#EFFEED;
+ }*/
+
+
+/* --------------------------------------------------- */
+/* PRESENTACIÓN DEL FORMULARIO PARA ADMINISTRADORES    */
+/* --------------------------------------------------- */
+
+
+
+fieldset.principal_adm {
+  padding:1em 0 1em 0;
+ /* margin: 0 0 0 0;*/
+ background-image:url(../images/maquetacion/contenido/fondo_formulario.png);
+     background-repeat:repeat-y;
+  /*background-position:left;*/
+  background-position:-16.3em;
+  background-color:#f8f8f8;
+   border: 1px solid #aab982;width: 59.16em; 
+  /*overflow:hidden;*/
+  display:block;
+}
+
+  fieldset.principal_adm legend {  
+    margin-left: 2em;  
+    padding: 0; 
+    color: #000;  
+    font-weight: bold;
+  }
+
+    fieldset.principal_adm legend span{  /* necesario por un bug en ie8 */
+      display: none;
+    }
+  fieldset.principal_adm label span.bloque_derecho {
+    /*width:12em;*/
+    width:40em;
+    float:left;
+    width:auto;
+    margin-right: 0em;
+    padding-left: 0em;
+    text-align:left;
+    vertical-align:top;
+    display:block;
+  }
+  
+  fieldset.principal_adm label span{
+    /*width:12em;*/
+    width:14em;
+    float:left;
+    margin-right: 2em;
+    padding-left:2em;
+    text-align:right;
+    vertical-align:top;
+    display:block;
+  }
+
+  fieldset.principal_adm label span.bloque_derecho .boton 
+  {
+      margin-top:0.5em;
+  }  
+  
+  fieldset.principal_adm label span.bloque_derecho p 
+  {
+      margin:1em 0 0 0;
+  }
+
+
+  fieldset.principal_adm label div.bloque_derecho
+  {
+      text-align:left;
+      padding:0em;
+      display:block;
+      overflow:hidden;
+  }
+
+
+  fieldset.principal_adm label div.bloque_derecho div.comentario
+  {
+      text-align:left;
+      padding:0em;
+      margin-bottom:1em;
+      color:#777;
+      font-size:0.75em;
+  }
+      
+  
+  fieldset.principal_adm label span span{
+    margin:0.5em 0 0 0;
+    padding:0;
+    color:#555;
+    font-size:0.90em;
+    float:right;
+  }
+  
+  
+    
+  fieldset.principal_adm label { 
+    float: left;  
+    /*width: 59.16em;  */
+    width:100%;
+    text-align: left;
+    color:#181a65;
+    clear:left;
+    display:block;
+    margin:0.5em 0 0.5em 0;
+  }
+
+
+
+
+
+fieldset.principal_adm fieldset{
+    padding:0;
+    border:none;
+    background:none;
+    width: 45.16em;
+    display:block;
+  }
+
+ fieldset.principal_adm  fieldset legend {  
+  
+    text-align:right;
+    vertical-align:top;
+    color:#181a65;
+    font-weight:normal;
+    display:block;
+    padding-left:6.5em;
+    padding-top:1em;    
+  }
+
+  fieldset.principal_adm  fieldset label { 
+    float: left;  
+    border:none;
+    width: 40.16em;
+    vertical-align:top;
+    text-align: left;
+    color:#000000;
+    margin-top:-1.1em;
+    margin-bottom:1.5em;
+    padding-left:13em;
+  }
+
+  fieldset.principal_adm  fieldset span{
+    width:12em;
+    float:left;
+    margin-right: 2em;
+    text-align:right;
+    vertical-align:top;
+
+  }
+  
+/* --------------------------------------------------- */
+/* PRESENTACIÓN DE DATOS PARA ADMINISTRADORES    */
+/* --------------------------------------------------- */
+
+dl.presentacion_datos_adm
+{
+  padding:1em 0 1em 0;
+  margin: 0 0 0 0;
+  background-image:url(../images/maquetacion/contenido/fondo_formulario.png);
+  background-repeat:repeat-y;
+  background-position:-16.35em;
+  background-color:#f8f8f8;
+  border: 1px solid #AAB982;
+  width: 59.16em;
+  overflow:hidden;
+  display:block;
+}
+
+  dl.presentacion_datos_adm dt
+  {
+    float: left;
+    clear:   left;
+    display:  block;
+    text-align:right;
+    color:#181a65;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:1em;
+    width:16em;
+    padding: 0.5em 1em 0.5em 0;
+    font-weight:normal;
+    background-color:Transparent;    
+  }
+
+  dl.presentacion_datos_adm dd
+  {
+    float: left;
+    width:39.9em;
+    color:#000000;
+    padding: 0.5em 0 0.5em 1em;
+    font-weight:normal;
+    clear:   right;
+    display:  block;
+  }
+
+
+  dl.presentacion_datos_adm dd ul
+  {
+      margin-left:1em;
+  }
+  
+  dl.presentacion_datos_adm dd ol
+  {
+      margin-left:2em;
+  }
+
+
+  
+
+div.contenedor .cuerpo  fieldset.principal_adm
+{
+    background-image:url(../images/maquetacion/contenido/fondo_formulario.png);
+    border: 1px solid #aab982;
+}
+
+div.contenedor .cuerpo  div.botonera_inferior_enmarcada
+{
+    border-top:none;
+}
+
+div.botonera_inferior_integrada_adm
+  {
+    width: 41.75em; 
+    margin:0 0.5em 1em 16.9em;
+    padding:0.5em 0.5em 0.5em 0;
+    text-align:right;    
+    background-color:#f8f8f8;
+     border: 1px solid #aab982;
+   border-top:none;
+  }

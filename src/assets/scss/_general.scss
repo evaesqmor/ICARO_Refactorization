@@ -1,0 +1,375 @@
+﻿/* ------------------------------------------------------------ */
+/* RESET DE ESTILOS                                           */
+/* ------------------------------------------------------------ */
+
+
+
+  html, body, div, span, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  abbr, address, cite, code,
+  del, dfn, em, img, ins, kbd, q, samp,
+  small, strong, sub, sup, var,
+  b, i,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, dialog, figure, footer, header,
+  hgroup, menu, nav, section,
+  time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+  }
+
+  body {
+    line-height:1;
+  }
+
+  article, aside, dialog, figure, footer, header, hgroup, nav, section {
+    display:block;
+  }
+
+  nav ul {
+    list-style:none;
+  }
+
+  blockquote, q {
+    quotes:none;
+  }
+
+  blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content:none;
+  }
+
+  a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+  }
+
+  ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+  }
+
+  mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+  }
+
+  del {
+    text-decoration: line-through;
+  }
+
+  abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+  }
+
+  table {
+    border-collapse:collapse;
+    border-spacing:0;
+  }
+
+  hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+  }
+
+  input, select {
+    vertical-align:middle;
+  }
+
+
+
+
+/* ---------------------------------------------------------- */
+/* MODIFICADORES DE ALGUNOS VALORES POR DEFECTO               */
+/* ---------------------------------------------------------- */
+
+
+
+
+body {
+  color:#000000;
+  font-size:  0.7512em;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  line-height:normal;
+}
+
+a {
+  color:#3366FF;
+  text-decoration:none;
+}
+
+p {
+  margin-bottom: 1em;  /* los párrafos tendrán un margen inferior por defecto */
+}
+
+
+
+h1 {
+    display:none;
+}
+
+
+.error, .obligatorio {
+  color:#FF0000;
+}
+
+
+.exito {
+  color:#009900;
+}
+
+.texto_sadm {
+  color:#009900;
+}
+
+.fondo_gris
+{
+    background-color: #CCCCCC;
+}  
+
+.fondo_negativo
+{
+    background-color:#FFEBE6;
+}
+
+
+.texto_alineado_centro{
+  text-align:center;
+}
+
+.texto_alineado_izq{
+  text-align:left;
+}
+
+.texto_alineado_der{
+  text-align:right;
+}
+
+
+/* ---------------------------------------------------------- */
+/* MODIFICADORES GENERALES                                    */
+/* ---------------------------------------------------------- */
+
+
+
+/* distintos márgenes tipo */
+
+
+.margen_izquierdo_05em{
+  margin-left:0.5em;
+}
+
+.margen_izquierdo_1em{
+  margin-left:1em;
+}
+
+.margen_izquierdo_2em{
+  margin-left:2em;
+}
+
+.margen_derecho_05em{
+  margin-right:0.5em;
+}
+
+.margen_derecho_1em{
+  margin-right:1em;
+}
+
+.margen_derecho_2em{
+  margin-right:2em;
+}
+
+.margen_superior_05em{
+  margin-top:0.5em;
+}
+
+.margen_superior_1em{
+  margin-top:1em;
+}
+
+.margen_superior_2em{
+  margin-top:2em;
+}
+
+.margen_inferior_05em{
+  margin-bottom:0.5em;
+}
+
+.margen_inferior_1em{
+  margin-bottom:1em;
+}
+
+.margen_inferior_0em{
+  margin-bottom:0;
+}
+
+.margen_inferior_2em{
+  margin-bottom:2em;
+}
+
+/*estilo acceso rapido*/
+.acceso_rapido
+{
+ width:38em;
+ margin-bottom:2em;
+ }
+ 
+ .acceso_rapido .entrada
+ {
+      padding: 0.4em 2em 0.4em 1.5em;  
+      border:1px solid #dedede;
+      margin:0 -1em 0 -1em;
+     }
+ .acceso_rapido .titulo
+ {
+     background-color:#dedede;
+     padding: 0.5em 2em 0.5em 1.5em;  
+      border-radius:10px 0 0 10px;
+    -moz-border-radius:10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    margin:0;
+     }
+ .acceso_rapido .boton
+ {
+     background-color:#dedede;
+     padding: 0.5em 2em 0.5em 1.5em;  
+     border-radius:0 10px 10px 0;
+    -moz-border-radius:10 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    margin:0;
+     }    
+/* estilo para enmarcar */
+
+.enmarcado {
+  border:1px solid #dedede;
+  padding: 1.5em 2em 1.5em 1.5em;
+   
+  
+}
+       
+       
+  .enmarcado ul,
+  .enmarcado ol{
+    padding:0 0 1em 2em;
+  }
+       
+  .enmarcado ul li,
+  .enmarcado ol li{
+    padding:1em 0 0 0;
+  }
+
+/* estilo para enmarcar mensajes positivos (confirmaciones, aceptaciones, etc) */
+
+.enmarcado_positivo {
+  border:1px solid #339933;
+  padding: 1.5em 2em 1.5em 1.5em;
+  color: #339933;
+}
+
+
+/* estilo para enmarcar mensajes negativos (denegaciones, prohibiciones, etc) */
+
+.enmarcado_negativo {
+  border:1px solid #FF0000;
+  padding: 1.5em 2em 1.5em 1.5em;
+  color: #FF0000;
+}
+
+
+/* modificaciones independientes para el estilo enmarcado */
+          
+.borde_positivo
+{
+  border-color: #339933;
+}      
+      
+.borde_negativo
+{
+  border-color: #FF0000;
+}
+
+.texto_positivo
+{
+  color: #008000;
+}
+
+.texto_negativo
+{
+  color: #FF0000;
+}
+
+
+
+/* estilo que te redondea las essquinas de un cuadro border */
+
+.esquinas_redondeadas
+{
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+}
+
+.esquinas_redondeadas_superior
+{
+    border-radius:10px 10px 0 0;
+    -moz-border-radius:10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+}
+
+.esquinas_redondeadas_inferior
+{
+    border-radius:0 0 10px 10px;
+    -moz-border-radius:0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+}
+
+
+
+/**/
+
+
+.scrollbar
+{
+  overflow:auto;
+  padding-right:1em;  
+}
+     
+     
+     
+/* Paneles */     
+
+
+.panel_gris_sombreado
+{
+    margin:0;
+    padding:1em;
+    display:block;
+    background:#efefef;
+    color:#333;
+    border-bottom:1px solid #ddd;
+    -moz-box-shadow:    0 1px 3px rgba(0,0,0, .4);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+    box-shadow:         0 1px 3px rgba(0,0,0, .4);
+    border-radius:10px 10px 10px 10px;
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}     

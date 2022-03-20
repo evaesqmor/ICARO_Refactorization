@@ -1,0 +1,40 @@
+﻿.ucConfirmar .CcFpCabecera
+{
+    background: url(../images/maquetacion/cabecera_fondo.png);
+    background-position:left;
+    background-repeat:no-repeat;
+    background-color: #6fb6db;
+    height: 15px;
+}
+
+.ucConfirmar .fondo
+{
+    background: url(../images/maquetacion/cuerpo_fondo.png);
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ucConfirmar .texto
+{
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    height: auto;
+}
+
+.ucConfirmar .botones
+{
+    height: 30px;
+    margin-top: 1em;
+}
+
+
+.ucConfirmar .botones .aceptar,
+.ucConfirmar .botones .cancelar
+{
+    width: 150px;
+    text-align: center;
+    float: left;
+    vertical-align: baseline;
+}

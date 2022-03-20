@@ -1,0 +1,19 @@
+@import '_index';
+@import '_App';
+@import '_elementos';
+@import '_especifico';
+@import '_estilos';
+@import '_FloatingPanel';
+@import '_general';
+@import '_imprimir';
+@import '_maquetacion';
+@import '_menu';
+
+// Importando bootstrap-scss
+@import "../../../node_modules/bootstrap-scss/bootstrap";
+@import "../../../node_modules/bootstrap-scss/bootstrap-utilities";
+@import "../../../node_modules/bootstrap-scss/bootstrap-reboot";
+@import "../../../node_modules/bootstrap-scss/bootstrap-grid";
+
+// Importando bulma
+@import "../../../node_modules/bulma/css/bulma";
